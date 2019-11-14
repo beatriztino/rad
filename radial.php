@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
      <link rel="stylesheet" href="bootstrap/bootstrap.css">
      <link rel="stylesheet" href="radial.css">
-     <link href="css/customizado.css" rel="stylesheet">
      <script src="js/jquery-3.4.1.js"></script>
      <script src="js/script.js"></script>
      <script src="jQuery-Mask-Plugin-master/dist/jquery.mask.js"></script>
@@ -27,19 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">1 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">4</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">5</a>
+              <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -60,26 +47,27 @@
             <h1>Barra Circular de Carregamento</h1>
             <br>
             <h2>Como utillizar:</h2>
-            <h6> (É necessário que você já tenha o Bootstrap e o jQuery.)</h6>
+            <h6> (É necessário que você já tenha o jQuery.)</h6>
             <h5> 1 - Download:</h5>
             <a href="https://www.jqueryscript.net/loading/jQuery-Circular-Progress-Bar-With-Text-Counter.html"> Circular-Progress-Bar</a>
             <br>
             <br>
             <h5> 2 - Adicionar as importações: </h5>
-            <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
-            2
-            3</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;//code.jquery.com/jquery.min.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-              <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;scripts/plugin.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
-              <span style="color: #007700">&lt;link</span> <span style="color: #0000CC">rel=</span><span style="background-color: #fff0f0">&quot;stylesheet&quot;</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;radial.css&quot;</span><span style="color: #007700">&gt;</span>
-            </pre></td></tr></table></div>
+            <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:400px;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+  2
+  3</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;js/script.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+  <span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;js/plugin.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+  <span style="color: #007700">&lt;link</span> <span style="color: #0000CC">rel=</span><span style="background-color: #fff0f0">&quot;stylesheet&quot;</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;radial.css&quot;</span><span style="color: #007700">&gt;</span>
+  </pre></td></tr></table></div>
+
             <br>
             <h5> 3 - Defina um local na página para a barra de carregamento: </h5>
-            <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;my-progress-bar&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
+            <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:350px;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;my-progress-bar&quot;</span><span style="color: #007700">&gt;&lt;/div&gt;</span>
           </pre></td></tr></table></div>
           <br>
           <br>
           <h5> 4 - Adicione o estilo ao CSS: </h5>
-          <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+          <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:450px;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
  2
  3
  4
@@ -136,7 +124,7 @@
                 <br>
                 <br>
                 <h5> 5 - Configuração padrão:</h5>
-                <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+                <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:600px;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
                 2
                 3
                 4
